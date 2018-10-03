@@ -5,7 +5,6 @@
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
-    "start": "nvm i 8"
   },
   "dependencies": {
     "ascii-data-table": "^2.1.1",
