@@ -21,7 +21,7 @@ const gif = require("gif-search");
 const client = new Discord.Client({disableEveryone: true});
 
 const prefix = "!";
-client.user.setGame(` !help`,"http://twitch.tv/S-F")
+client.user.setGame(` !help `,"http://twitch.tv/S-F")
 /////////////////////////
 ////////////////////////
 
