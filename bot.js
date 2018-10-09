@@ -23,7 +23,7 @@ const client = new Discord.Client({disableEveryone: true});
 const prefix = "!";
 
 client.on('message', function(message) {
-	const myID = "347744493182648321";
+	const myID = "321463690815602689";
     let args = message.content.split(" ").slice(1).join(" ");
     if(message.content.startsWith(prefix + "stream")) {
 		        if(message.author.id !== myID) return;
