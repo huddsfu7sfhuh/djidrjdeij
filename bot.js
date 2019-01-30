@@ -176,7 +176,7 @@ client.on('message', async msg => {
             
         }
         
-	} else if (command === `s`) {
+	} else if (command === `skip`) {
 
 		if (!msg.member.voiceChannel) return msg.channel.send("You Must be in a Voice channel to Run the Music commands!");
         if (!serverQueue) return msg.channel.send("There is no Queue to skip!!");
